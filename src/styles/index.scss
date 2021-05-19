@@ -1,0 +1,13 @@
+$theme-colors: (
+  "primary": #0275d8,
+  "danger": #ff4136,
+  "success": #5cb85c,
+  "light": #f7f7f7,
+  "warning": #f0ad4e,
+);
+// Bootstrap and it's default variables
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+  padding-top: 5rem; //1 rem= font size of body
+}
