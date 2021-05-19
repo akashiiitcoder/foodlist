@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename='/foodlist'>
         <div className="App">
           <header className="App-header">
             <div className="container">
